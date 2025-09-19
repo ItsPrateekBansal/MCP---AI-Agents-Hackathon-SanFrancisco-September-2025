@@ -1,0 +1,37 @@
+# Redis Cloud Financial Data Agent Requirements
+
+# Redis connectivity
+redis==5.0.1
+redis[hiredis]==5.0.1  # High-performance parser
+
+# Data generation and manipulation
+faker==19.6.2
+
+# Data serialization for Redis
+orjson==3.9.7  # Fast JSON serialization
+
+# Configuration management
+python-dotenv==1.0.0
+
+# Date/time utilities
+python-dateutil==2.8.2
+
+# Logging
+coloredlogs==15.0.1
+
+# Progress tracking
+tqdm==4.66.1
+
+# Data structures and utilities
+dataclasses-json==0.6.1
+
+# Optional: Redis search and analytics (if using RedisStack)
+redis-py-sentinel==4.6.0
+
+# Development and testing
+pytest==7.4.2
+ipython==8.15.0
+
+# Optional: Data analysis
+pandas==2.0.3
+numpy==1.24.3
